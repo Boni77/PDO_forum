@@ -26,16 +26,19 @@ if (isset($_GET["action"])) {
         case "listTopic":
             $ctrlTopic->listTopic($_GET["id"]);
             break;
-        case "view_topic":
-            $ctrlTopic->ViewTopic();
-            break;
         case "Post":
             $ctrlPost->listPost($_GET["id"]);
             break;
         case "view_post":
             $ctrlPost->ViewPost();
             break;
+        case "addPost":
+            $ctrlPost->AddPost();
+            break;
+        case "addTopic":
+            $ctrlTopic->addTopic();
+            break;
     }
 } else {
-    $ctrlCategorie->listCategorie();
+    $ctrlAccueil->Accueil();
 }

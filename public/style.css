@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -13,6 +9,15 @@ body{
     margin: auto;
 }
 
+.addmsg{
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.114);
+}
+
+.add{
+    text-align: center;
+}
 /* CSS ACCUEIL */
 
 
@@ -42,6 +47,7 @@ body{
 .mmm:hover{
     color: blue;
 }
+
 .top{
     position: absolute;
     top: -30px;
@@ -206,20 +212,37 @@ li {
 h1{
     text-align: center;
     margin-top: 30px;
+} */
+
+.coms{
+    font-size: 2rem;
+}
+
+.centerTopic{
+    margin-left : 130px;
+}
+
+
+table{
+   position: relative;
+   justify-content: center;
+   width: 900px;
+   
 }
 
 th{
-    text-align: left;
-    padding: 15px;
-    background-color: rgba(140, 0, 0, 0.811);
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.345);
     text-transform: uppercase;
+
 }
 
 td{
     text-align: center;
-    border-bottom: 1px solid black;
-    font-size: 20px;
-    font-size: small;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.763);
+    color: white;
+    font-size: 10px;
+ 
 }

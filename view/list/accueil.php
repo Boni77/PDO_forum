@@ -26,7 +26,6 @@
                     <span style="--i:1;"></span>
                     <span style="--i:17;"></span>
                     <span style="--i:4;"></span>
-
                 </div>
                 <div class="mmm">TY Micka</div>
                 <div class="circle">

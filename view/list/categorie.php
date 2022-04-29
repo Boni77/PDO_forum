@@ -5,7 +5,7 @@
     <thead>
         <?php foreach ($requete as $categorie) { ?>
             <tr>
-                <th><a href="index.php?action=listTopic&id=<?= $categorie['id_categorie'] ?>"><?= $categorie["nom_categorie"] ?></a></th>
+                <td><a href="index.php?action=listTopic&id=<?= $categorie['id_categorie'] ?>"><?= $categorie["nom_categorie"] ?></a></th>
             </tr>
         <?php } ?>
     </thead>
